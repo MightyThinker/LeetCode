@@ -1,6 +1,12 @@
 /*
  * Question 189: Rotate Array
  * You are given an array nums and an integer k. You want to rotate the array to the right by k steps, where k is non-negative.
+
+ ? Constraints:
+ ?  1 <= nums.length <= pow(10,5)
+ ?  -pow(2,31) <= nums[i] <= pow(2,31) - 1
+ ?  0 <= k <= pow(10,5)
+ * 
  */
 
 
@@ -38,6 +44,10 @@ class Solution_189 {
         reverse(nums,rotation,nums.length-1);
     }
 }
+
+// Complexity
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 
 public class RotateArray_189 {
     public static void main(String[] args) {
